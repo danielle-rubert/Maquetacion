@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    height: 80vh; 
+    width: 25%;
+  }
+  
+  .header, .nav, .footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .header {
+    border: 2px solid green;
+    height: 8%;
+  }
+  
+  .nav {
+    border: 2px solid purple;
+    height: 6%;
+  }
+  
+  .footer {
+    border: 2px solid gold;
+    height: 8%;
+  }
+  
+  .main {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+  }
+  
+  .article {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border: 2px solid blue;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .article-header {
+    background-color: #f7f7f7;
+    border: 2px solid green;
+    padding: 10px;
+    height: 15%;
+    text-align: center;
+  }
+  
+  .section {
+    background-color: #f7f7f7;
+    border: 2px solid purple;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .article-footer {
+    background-color: #f7f7f7;
+    border: 2px solid orange;
+    padding: 10px;
+    height: 15%;
+    text-align: center;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+  }
+  
+  .aside {
+    background-color: #f7f7f7;
+    border: 2px solid cyan;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+  }
+  
